@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://assets/sounds/ocean_idle.wav" type="AudioStream" id=1]
+
+[node name="OceanIdlePlayers" type="Node2D"]
+
+[node name="OceanIdleSoundPlayer1" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 1 )
+volume_db = -8.0
+
+[node name="OceanIdleSoundPlayer2" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 1 )
+volume_db = -12.0
+attenuation = 0.784584
